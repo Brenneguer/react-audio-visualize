@@ -5,6 +5,13 @@ An audio visualizer for React. Provides separate components to visualize both li
 ```sh
 npm install react-audio-visualize
 ```
+```sh
+yard add react-audio-visualize
+```
+
+```sh
+pnpm install react-audio-visualize
+```
 
 ## **AudioVisualizer** Component ([Example](https://stackblitz.com/edit/stackblitz-starters-kjpu5q?file=src%2FApp.tsx))
 
@@ -98,4 +105,4 @@ const Visualizer = () => {
 | **`smoothingTimeConstant`** |  A double within the range 0 to 1 (0 meaning no time averaging). For more [details](https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/smoothingTimeConstant) | `0.4` | Yes |
 
 
-
+- Forked from: https://github.com/samhirtarif/react-audio-visualize
