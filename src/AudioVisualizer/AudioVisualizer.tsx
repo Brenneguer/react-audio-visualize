@@ -1,12 +1,10 @@
 import {
+  type ForwardedRef,
+  forwardRef,
+  useEffect,
+  useImperativeHandle,
   useRef,
   useState,
-  forwardRef,
-  type ForwardedRef,
-  type ForwardRefExoticComponent,
-  type RefAttributes,
-  useImperativeHandle,
-  useEffect,
 } from "react";
 import { type dataPoint } from "./types";
 import { calculateBarData, draw } from "./utils";
@@ -59,9 +57,7 @@ interface Props {
   ref?: React.ForwardedRef<HTMLCanvasElement>;
 }
 
-const AudioVisualizer: ForwardRefExoticComponent<
-  Props & RefAttributes<HTMLCanvasElement>
-> = forwardRef(
+const AudioVisualizer = forwardRef(
   (
     {
       blob,

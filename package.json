@@ -1,12 +1,12 @@
 {
   "name": "react-audio-visualize",
   "private": false,
-  "version": "1.2.0",
+  "version": "2.0.0",
   "license": "MIT",
-  "author": "Samhir Tarif",
+  "author": "Brenneguer's - Clonned from Samhir Tarif",
   "repository": {
     "type": "git",
-    "url": "https://github.com/samhirtarif/react-audio-visualize.git"
+    "url": "https://github.com/brenneguer/react-audio-visualize.git"
   },
   "keywords": [
     "audio",
@@ -60,10 +60,10 @@
     "eslint-plugin-react-refresh": "^0.3.4",
     "path": "^0.12.7",
     "prettier": "^2.8.8",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "typescript": "^5.0.2",
-    "vite": "^4.5.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "typescript": "5.8.3",
+    "vite": "5.1.5",
     "vite-plugin-dts": "^2.3.0"
   },
   "peerDependencies": {
