@@ -3,6 +3,13 @@ An audio visualizer for React. Provides separate components to visualize both li
 
 ## Installation
 ```sh
+npm install react-audio-visualize
+```
+```sh
+yard add react-audio-visualize
+```
+
+```sh
 pnpm install react-audio-visualize
 ```
 
